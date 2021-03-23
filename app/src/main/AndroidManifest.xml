@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GostyleCoupon">
         <activity
+            android:name=".MainActivity3"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.GostyleCoupon.NoActionBar"></activity>
+        <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.GostyleCoupon.NoActionBar"></activity>
+            android:theme="@style/Theme.GostyleCoupon.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:enabled="false"
-            android:text="Acceder aux bon plans"
+            android:text="Voir les bons plans"
             android:textColor="?attr/colorBackgroundFloating"
             app:backgroundTint="@android:color/holo_orange_light" />
     </LinearLayout>

@@ -69,7 +69,17 @@ tools:context=".MainActivity">
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:enabled="false"
-            android:text="Acceder aux bon plans"
+            android:text="Se connecter"
+            android:textColor="?attr/colorBackgroundFloating"
+            app:backgroundTint="@android:color/holo_orange_light" />
+
+        <Button
+            android:id="@+id/bouton"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:text="S'inscrire"
             android:textColor="?attr/colorBackgroundFloating"
             app:backgroundTint="@android:color/holo_orange_light" />
     </LinearLayout>
