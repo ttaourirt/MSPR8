@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     //Declaration de mon bouton
     lateinit var Connexion : Button
-    lateinit var Inscription : Button
+    lateinit var Qrcode : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,14 +27,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         //initialisation
-        Inscription = findViewById(R.id.bouton)
+        Qrcode = findViewById(R.id.bouton2)
 
         // creation de notre intent
 //        val monIntent2 : Intent = new Intent(MainActivity.this; RegisterActivity.class)
 
         //clic sur le bouton
-        Inscription.setOnClickListener {
-            startActivity(Intent(this,RegisterActivity::class.java))
+        Qrcode.setOnClickListener {
+            startActivity(Intent(this,QRCodeActivity::class.java))
         }
     }
 }

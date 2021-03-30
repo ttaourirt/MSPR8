@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">GoStyleCoupon</string>
-    <string name="title_activity_main2">BonPlanActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="next">Next</string>
