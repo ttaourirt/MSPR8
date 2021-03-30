@@ -13,7 +13,7 @@
         android:layout_width="417dp"
         android:layout_height="130dp"
         android:layout_weight="1"
-        android:background="@android:color/holo_red_light"
+        android:background="#ff2caaff"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
@@ -54,7 +54,7 @@
         android:layout_width="413dp"
         android:layout_height="532dp"
         android:layout_weight="1"
-        android:background="@color/design_default_color_secondary_variant"
+        android:background="#FF382BEE"
         android:gravity="bottom"
         android:orientation="vertical"
         android:paddingBottom="90dp"
@@ -62,15 +62,6 @@
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="199dp">
 
-        <Button
-            android:id="@+id/bouton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:enabled="false"
-            android:text="Voir les bons plans"
-            android:textColor="?attr/colorBackgroundFloating"
-            app:backgroundTint="@android:color/holo_orange_light" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
