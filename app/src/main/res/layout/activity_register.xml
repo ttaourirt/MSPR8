@@ -82,6 +82,7 @@
                 android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="6dp"
@@ -89,6 +90,7 @@
                     android:paddingEnd="6dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInput2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_person"
@@ -98,6 +100,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="6dp"
@@ -105,6 +108,7 @@
                     android:paddingEnd="6dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInput4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_email"
@@ -114,6 +118,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -123,6 +128,7 @@
                     app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInput6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_lock"

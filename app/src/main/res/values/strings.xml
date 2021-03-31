@@ -8,4 +8,9 @@
     <string name="l_application_des_bon_plans">L\'application des bon plans:</string>
     <string name="se_connecter">Se connecter</string>
     <string name="s_inscrire">S\'inscrire</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
 </resources>
