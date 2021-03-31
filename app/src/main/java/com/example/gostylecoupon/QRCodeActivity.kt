@@ -23,7 +23,7 @@ class QRCodeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_qrscan)
         val scannerView = findViewById<CodeScannerView>(R.id.scanner_view)
 
         codeScanner = CodeScanner(this, scannerView)
@@ -55,7 +55,7 @@ class QRCodeActivity : AppCompatActivity() {
     }
 
     fun checkPermission(){
-        if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
+        if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA),MY_CAMERA_PERMISSION_REQUEST)
         }else{
         codeScanner.startPreview()

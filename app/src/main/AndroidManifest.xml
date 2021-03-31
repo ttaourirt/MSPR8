@@ -20,6 +20,8 @@
                 android:label="@string/title_activity_login"/>
         <activity android:name=".RegisterActivity"
                 android:label="@string/title_activity_register"/>
+        <activity android:name=".QRCodeActivity"
+            android:label="@string/title_activity_qrscan"/>
     </application>
 
 </manifest>
